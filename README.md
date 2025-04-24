@@ -1,4 +1,4 @@
-#nodeUsers-SUPA
+
 # 🧠 API de Usuários com Node.js, Express e Supabase
 
 Este projeto é uma API simples desenvolvida com Node.js e Express que realiza operações de CRUD em um banco de dados Supabase. A aplicação também conta com documentação interativa via Swagger.
