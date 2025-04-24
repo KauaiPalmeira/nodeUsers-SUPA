@@ -9,7 +9,6 @@ Este projeto é uma API simples desenvolvida com Node.js e Express que realiza o
 - Express.js
 - Supabase (PostgreSQL)
 - Swagger (swagger-ui-express)
-- Dotenv
 
 ---
 
@@ -23,8 +22,6 @@ npm install
 
 ### 2. Altere o arquivo `.env`
 
-Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
-
 ```env
 PORT=3000
 URL=https://SEU-PROJETO.supabase.co
@@ -37,7 +34,7 @@ API=SUA-API-KEY
 
 ### 3. Estrutura exata do banco Supabase
 
-Execute o seguinte script SQL no seu painel Supabase para criar a tabela exatamente como usada na aplicação:
+Execute o seguinte script SQL no seu painel Supabase para criar a tabela exatamente como foi usada na aplicação:
 
 ```sql
 create table public.usuario (
